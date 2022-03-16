@@ -2,7 +2,7 @@
 
 FROM continuumio/miniconda3:4.8.2
 LABEL description="Base docker image with conda and util libraries"
-ARG ENV_NAME="lrpg"
+ARG ENV_NAME="sixframe"
 
 # Install mamba for faster installation in the subsequent step
 # Install r-base for being able to run the install.R script
